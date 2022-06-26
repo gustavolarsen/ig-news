@@ -1,0 +1,14 @@
+.home {
+  max-width: var(--max-width-page);
+  height: calc(100vh - (var(--header-heigth)));
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .hero {
+    max-width: 600px;
+  }
+}
